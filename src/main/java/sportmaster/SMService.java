@@ -1,4 +1,4 @@
-package Sportmaster;
+package sportmaster;
 
 public class SMService {
 

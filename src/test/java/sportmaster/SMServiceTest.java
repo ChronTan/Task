@@ -1,4 +1,4 @@
-package Sportmaster;
+package sportmaster;
 
 import org.junit.jupiter.api.Test;
 
