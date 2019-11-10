@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class CalculationOfWallpaper {
 
     public static void main(String[] args) {
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Введите высоту комнаты: ");
         float heightRoom=sc.nextFloat();

@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- Ctrl + Shift + A -> Run Anything -> mvn verify -->
     <build>
         <plugins>
             <plugin>
