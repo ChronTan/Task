@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/ChronTan/Task.svg?branch=master)](https://travis-ci.org/ChronTan/Task)
+[![Build Status](https://travis-ci.org/ChronTan/Task.svg?branch=master)](https://travis-ci.org/ChronTan/Task) [![codecov](https://codecov.io/gh/ChronTan/Task/branch/master/graph/badge.svg)](https://codecov.io/gh/ChronTan/Task)
