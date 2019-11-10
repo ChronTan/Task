@@ -3,26 +3,22 @@ import java.util.Scanner;
 public class CalculationOfWallpaper {
 
     public static void main(String[] args) {
+        CalculationOfWallpaper calculationOfWallpaper=new CalculationOfWallpaper();
+        double heightRoom=5.0;
+        double widthRoom=7.0;
+        double lengthRoom=6.0;
+        double widthWallpaper=1.0;
+        double lengthWallpaper=10.0;
 
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Введите высоту комнаты: ");
-        float heightRoom=sc.nextFloat();
-        System.out.println("Введите ширину комнаты: ");
-        float widthRoom=sc.nextFloat();
-        System.out.println("Введите длину комнаты: ");
-        float lengthRoom=sc.nextFloat();
-        System.out.println("Введите ширину обоев: ");
-        float widthWallpaper=sc.nextFloat();
-        System.out.println("Введите длину обоев: ");
-        float lengthWallpaper=sc.nextFloat();
-        float perimetr=2*(lengthRoom+widthRoom);
-        System.out.println("perimetr: "+perimetr);
+    }
+
+    public double countR(double lengthRoom, double widthRoom,double widthWallpaper, double lengthWallpaper, double heightRoom){
+        double totalRolls=1.0;
+        double perimetr=2*(lengthRoom+widthRoom);
         double countSheet=Math.ceil(perimetr/widthWallpaper);
-        System.out.println("countSheet: "+countSheet);
         double countPerRoll=Math.floor(lengthWallpaper/(heightRoom));
-        System.out.println("количество из одного рулона: "+countPerRoll);
-        double totalRolls=countSheet/countPerRoll;
-        System.out.println("Total rolls: "+totalRolls);
+        totalRolls=countSheet/countPerRoll;
 
+        return totalRolls;
     }
 }
